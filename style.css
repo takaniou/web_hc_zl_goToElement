@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    background-color: #3a7c85;
+    text-align: center;
+    color: #ffffff;
+    line-height: 100vh;
+    font-size: 60px;
+}
+
+div:nth-child(odd) {
+    background-color: #cc9a7d;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#back-to-top {
+    width: 50px;
+    height: 50px;
+    background-color: #00000080;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
